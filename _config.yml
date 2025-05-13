@@ -48,7 +48,8 @@ author:
   dribbble         : # Username
   github           : "kdmessi10"
   kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")  
+  openreview        : "https://openreview.net/profile?id=~Yuqi_Pan5"
 
   # Social media
   bluesky          : "bsky.app" # Replace this with you Bluesky username
