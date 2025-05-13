@@ -7,4 +7,5 @@ redirect_from:
   - /about.html
 ---
 
+Hi, I am Yuqi Pan.
 
