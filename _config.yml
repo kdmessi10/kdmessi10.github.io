@@ -26,7 +26,7 @@ author:
   name             : "Yuqi Pan"
   pronouns         : # example: "she/her"  
   bio              : "Undergraduate"
-  location         : "Earth"
+  location         : "Beijing, China"
   employer         : "Beijing University of Posts and Telecommunications"
   uri              : # URL
   email            : "panyuqi2022@bupt.edu.cn" 
@@ -52,7 +52,7 @@ author:
   openreview        : "https://openreview.net/profile?id=~Yuqi_Pan5"
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
