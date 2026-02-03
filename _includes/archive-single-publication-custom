@@ -1,0 +1,53 @@
+```html
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <!-- 论文标题 -->
+    <h3 class="archive__item-title" itemprop="headline" style="margin-bottom: 0.3em;">
+      {{ title }}
+    </h3>
+    
+    <!-- 作者列表 -->
+    {% if post.authors %}
+      <p style="margin: 0.2em 0; color: #494e52;">
+        {{ post.authors }}
+      </p>
+    {% endif %}
+    
+    <!-- 会议/期刊和年份 -->
+    {% if post.venue %}
+      <p style="margin: 0.2em 0; color: #494e52;">
+        <i>{{ post.venue }}</i>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
+      </p>
+    {% endif %}
+    
+    <!-- 链接部分 -->
+    <p style="margin: 0.5em 0;">
+      {% if post.paperurl %}
+        [<a href="{{ post.paperurl }}" style="color: #4285f4; text-decoration: none;">Paper</a>]
+      {% endif %}
+      {% if post.codeurl %}
+        [<a href="{{ post.codeurl }}" style="color: #4285f4; text-decoration: none;">Code</a>]
+      {% endif %}
+      {% if post.projecturl %}
+        [<a href="{{ post.projecturl }}" style="color: #4285f4; text-decoration: none;">Project</a>]
+      {% endif %}
+      {% if post.slidesurl %}
+        [<a href="{{ post.slidesurl }}" style="color: #4285f4; text-decoration: none;">Slides</a>]
+      {% endif %}
+      {% if post.videourl %}
+        [<a href="{{ post.videourl }}" style="color: #4285f4; text-decoration: none;">Video</a>]
+      {% endif %}
+    </p>
+    
+  </article>
+</div>
+```
