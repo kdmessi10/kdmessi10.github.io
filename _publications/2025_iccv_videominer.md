@@ -2,7 +2,6 @@
 title: "VideoMiner: Iteratively Grounding Key Frames of Hour-Long Videos via Tree-based Group Relative Policy Optimization"
 collection: publications
 category: conferences
-permalink: /publication/2025-iccv-videominer
 date: 2025-06-26
 venue: 'International Conference on Computer Vision (ICCV)'
 authors: 'Xinye Cao, Hongcan Guo, Jiawen Qian, Guoshun Nan, Chao Wang, <strong>Yuqi Pan</strong>, Tianhao Hou, Xiaojuan Wang, Yutong Gao'
