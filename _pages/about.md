@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Yuqi Pan, a final-year undergraduate student majoring in Telecommunications Engineering with Management at **[Beijing University of Posts and Telecommunications (BUPT)](https://www.bupt.edu.cn/)**.
+I am Yuqi Pan, currently pursuing a Ph.D. at the **[Institute of Trustworthy Embodied Artificial Intelligence (TEAI)](https://teai.fudan.edu.cn/)**, **[Fudan University](https://www.fudan.edu.cn/)**. I received my bachelor's degree in Telecommunications Engineering with Management from **[Beijing University of Posts and Telecommunications (BUPT)](https://www.bupt.edu.cn/)**.
 
-Starting in September 2026, I will join the **[Institute of Trustworthy Embodied Artificial Intelligence (TEAI)](https://teai.fudan.edu.cn/)** at **[Fudan University](https://www.fudan.edu.cn/)** as a Ph.D. student. My current research interests focus on Computer Vision, Embodied AI Safety, and Trustworthy & Safe Multimodal LLMs.
+My current research interests focus on Embodied AI Safety, World Models and Trustworthy & Safe Multimodal LLMs. Feel free to [contact me](mailto:panyuqi2022@bupt.edu.cn) if you are interested in discussing research or potential collaborations.
 
