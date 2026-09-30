@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Yuqi Pan's Homepage"
+title                    : "Tom's Homepage"
 title_separator          : "-"
 name                     : &name "Yuqi Pan"
-description              : &description "Yuqi Pan is a PhD student at Fudan University, working on computer vision, embodied AI safety, and trustworthy and safe multimodal LLMs."
+description              : &description "personal description"
 url                      : https://kdmessi10.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kdmessi10/kdmessi10.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Yuqi Pan"
   pronouns         : # example: "she/her"  
-  bio              : "PhD student"
+  bio              : "PhD Candidate"
   location         : "Shanghai, China"
   employer         : "Fudan University"
   uri              : # URL
